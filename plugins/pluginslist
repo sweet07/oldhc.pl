@@ -21,3 +21,10 @@
  RelaAutoBroadcast
  OldCombatMechanics - Disable 1.9 hit cooldown
  ExtraHardMode
+
+
+default &7{USERNAME}&7: &f{MESSAGE}
+vip &6[VIP] &f{USERNAME}&6: &f{MESSAGE}
+helper &b[Helper] &f{USERNAME}&b: &f{MESSAGE}
+mod &a[Moderator] &f{USERNAME}&a: &f{MESSAGE}
+admin &4[Administrator] &f{USERNAME}&4: &f{MESSAGE}
