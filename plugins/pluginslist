@@ -12,7 +12,7 @@
  WorldGuard
  WorldBorder
  SafeTrade
- NoCheatPlus
+ NoCheatPlus / Phoenix Anti-Cheat
  Vault
  ProtocolLib
  heart-changer
@@ -21,6 +21,12 @@
  RelaAutoBroadcast
  OldCombatMechanics - Disable 1.9 hit cooldown
  ExtraHardMode
+ CustomCommands
+ SkinsRestorer ??????????????????????????????????????????????????????
+ AdvancedBan ????????????????????????????????????????????????????????
+ 
+
+
 
 
 default &7{USERNAME}&7: &f{MESSAGE}
@@ -28,3 +34,33 @@ vip &6[VIP] &f{USERNAME}&6: &f{MESSAGE}
 helper &b[Helper] &f{USERNAME}&b: &f{MESSAGE}
 mod &a[Moderator] &f{USERNAME}&a: &f{MESSAGE}
 admin &4[Administrator] &f{USERNAME}&4: &f{MESSAGE}
+
+
+default:
+    /spawn - co 15 minut
+    /msg
+    /motd
+    /rules /regulamin
+    /register
+    /login
+    /changepassword
+    /kit start
+    /time
+    /g
+    /duel
+    /trade
+    /hardcore - pis ExtraHardMode + DeathBan
+    /
+    
+    
+    
+    
+    
+Sprawdzić:
+https://www.spigotmc.org/resources/orereplacer-100-no-more-x-ray-miners-seriously.22158/
+https://www.spigotmc.org/resources/advanced-report-system.48325/
+https://www.spigotmc.org/resources/bettercameras-360-camera-free-version.38927/
+https://www.spigotmc.org/resources/multiverse-core-for-1-9-1-10-1-11-1-12.23327/
+https://www.spigotmc.org/resources/sortadeathbans.31257/
+https://www.spigotmc.org/resources/limitsplugin.29921/
+https://dev.bukkit.org/projects/ench-limiter
