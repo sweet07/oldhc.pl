@@ -1,0 +1,152 @@
+####################################################################################################%n#                                  Messages sent by ExtraHardMode                                  #
+#                       Messages are only sent for modules that are activated                      #
+#                            Modes (has to match exactly, ignores case)                            #
+#       Disabled: Message won't be sent even if feature that would sent the message is active      #
+#                         One_Time: Will be sent to every player only once                         #
+#            Notification: Gets sent every time with a timeout to prevent spamming chat            #
+#             Tutorial: Sent a limited number of times and not displayed after 3 times             #
+#         Broadcast: Shown to whole server. Only few messages make sense to be broadcasted         #
+#                                            Variables:                                            #
+#                  $ALLCAPS is a variable and will be filled in for some messages                  #
+#                                     $PLAYER: Affected player                                     #
+#                            $PLAYERS: If multiple players are affected                            #
+#                             $DEATH_MSG: Death message if someone dies                            #
+#                                       $ITEMS: a player lost                                      #
+####################################################################################################
+Messages:
+  Display Messages In Scoreboard:
+    Enable: true
+    Scoreboard Title: '&aZacraftowani.pl'
+    Remove All Color Codes: true
+    Notification:
+      Enable: true
+      Displaytime In Ticks: 600
+      Textcolor: YELLOW
+    Tutorial:
+      Enable: true
+      Displaytime In Ticks: 1800
+      Textcolor: RED
+    Broadcast:
+      Enable: true
+      Displaytime In Ticks: 1200
+      Textcolor: GREEN
+  NoTorchesHere:
+    Mode: notification
+    Msg: W tym miejscu nie ma wystarczajacej ilosci powietrza, by postawic pochodnie. Uzyj innej metody, aby oswietlic sobie drogę.
+  StoneMiningHelp:
+    Mode: notification
+    Msg: Bedziesz potrzebowac zelaznego lub diamentowego kilofa, aby wykopac kamien. Sprobuj odkryc naturalne jaskinie, aby wydobyc rudy, takie jak wegiel, ktory zmiekcza kamien wokol niego.
+  NoPlacingOreAgainstStone:
+    Mode: notification
+    Msg: Niestety, nie mozesz umiescic rudy obok kamienia.
+  RealisticBuilding:
+    Mode: notification
+    Msg: Nie mozesz budowac, gdy jestes w powietrzu.
+  RealisticBuildingBeneath:
+    Mode: notification
+    Msg: Nie mozesz umiescic bloku bezposrednio pod soba.
+  LimitedTorchPlacements:
+    Mode: notification
+    Msg: Tam jest zbyt miekko, by postawic pochodnie.
+  NoCraftingMelonSeeds:
+    Mode: notification
+    Msg: Niestety nie udalo sie wydobyc nasion z melona.
+  LimitedEndBuilding:
+    Mode: notification
+    Msg: Niestety, budowanie tutaj jest bardzo ograniczone. Mozesz tylko niszczyc bloki, aby osiagnac niski poziom gruntu.
+  DragonFountainTip:
+    Mode: notification
+    Msg: Gratulujemy! Pokonales smoka! Jesli nie mozesz wskoczyc do portalu, wrzuc do niej perle.
+  NoSwimmingInArmor:
+    Mode: notification
+    Msg: Masz za duzo ciezaru, zeby plywac!
+  DragonDefeated:
+    Mode: broadcast
+    Msg: 'Smok zostal pokonany przez $PLAYERS. Gratulujemy!'
+  PlayerKilledByDragon:
+    Mode: broadcast
+    Msg: $PLAYER zostal zabity podczas walki ze smokiem!
+  PlayerChallengingDragon:
+    Mode: broadcast
+    Msg: $PLAYER wyzwal smoka na pojedynek.
+  HorseFeedLow:
+    Mode: notification
+    Msg: Uratowales swojego konia przed glodem, ale wciaz jest bardzo glodny.
+  HorseFeedMiddle:
+    Mode: notification
+    Msg: Twoj kon dobrze pojadl.
+  HorseFeedHigh:
+    Mode: notification
+    Msg: Twoj kon jest zaspokojony.
+  HorseStarveLow:
+    Mode: notification
+    Msg: Twoj kon jest bardzo zmeczony i potrzebuje troche jedzenia.
+  HorseStarveMiddle:
+    Mode: notification
+    Msg: Twoj kon niedlugo umrze z glodu.
+  HorseStarveHigh:
+    Mode: notification
+    Msg: Twoj kon gloduje, nakarm go lub umrze.
+  ChargedCreeper:
+    Mode: tutorial
+    Msg: Naladowany Creeper ekspoduje po uderzeniu.
+  BlazeOverworld:
+    Mode: tutorial
+    Msg: Blaze pojawiaja sie w poblizu lawy, a ich ognisty oddech powoduje wielka eksplozje!
+  BlazeNether:
+    Mode: tutorial
+    Msg: Blaze pojawiaja sie wszedzie w piekle i moga rozdzielac się po smierci!
+  Magmacube:
+    Mode: tutorial
+    Msg: Magmacude to male robale, ktore zamieniaja sie w Blaze!
+  Ghast:
+    Mode: tutorial
+    Msg: Ghast jest odporny na strzaly i wylatuje z nich wiekszy lup.
+  PigZombieAlwaysAngry:
+    Mode: tutorial
+    Msg: Pig Zombie jest zawsze agresywne!
+  PigZombieDropNetherwart:
+    Mode: tutorial
+    Msg: Mozesz dostac brodawke, gdy zabijesz Pig Zombie.
+  ZombieRespawn:
+    Mode: tutorial
+    Msg: Zombie moze sie wskrzesic, jesli nie jest podpalone!
+  ZombieSlowPlayer:
+    Mode: tutorial
+    Msg: Zombie spowalniaja, gdy Cie uderza!
+  SkeletonDeflectArrows:
+    Mode: tutorial
+    Msg: Strzaly nie trafiaja Skeleton. Musisz podjac z nim walke z bliska!
+  EndermanGeneral:
+    Mode: tutorial
+    Msg: Enderman moze Cie teleportowac do siebie!
+  CreeperDropTnt:
+    Mode: tutorial
+    Msg: Creeper moze ekspodowac tnt po smierci!
+  ExtinguishFire:
+    Mode: tutorial
+    Msg: Rozpalanie ognia, moze Cie podpalic.
+  ListLostItemsOnDeath:
+    Mode: notification
+    Msg: Straciles na stale $ITEMS
+  InformPlayerOnLostItems:
+    Mode: tutorial
+    Msg: Po smierci istnieje ryzyko, ze stracisz czesc swoich przedmiotow!
+  BucketFill:
+    Mode: tutorial
+    Msg: Mozesz podniesc wode, ale po jej umieszczeniu wyparowuje. Zdobadz troche lodu, jesli chcesz uprawiac ziemie!
+  AntifarmingUnwatered:
+    Mode: tutorial
+    Msg: Twoje uprawy potrzebuja duzej ilosci wody, inaczej uschna!
+  AntifarmingNotEnoughLight:
+    Mode: tutorial
+    Msg: Twoje uprawy potrzebuja naturalnego swiatla, aby rosnac!
+  AntifarmingDesert:
+    Mode: tutorial
+    Msg: Pustynie sa naprawde suche i nic tu nie rosnie!
+  AnimalOverCrowd:
+    Mode: notification
+    Msg: Zwierzeta potrzebuja przestrzeni! Rozwaz umieszczenie ich na wiekszym obszarze.
+  NetherWarning:
+    Mode: tutorial
+    Msg: Pieklo to naprawde niebezpieczne miejsce. Upewnij sie, ze jestes przygotowany.
