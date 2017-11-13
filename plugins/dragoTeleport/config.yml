@@ -1,6 +1,6 @@
 coordinates:
-  min: 1500
-  max: 3000
+  min: 900
+  max: 2900
 messages:
   ocean: "&f[old&4hc.pl] &cSprobuj jeszcze raz!"
   river: "&f[old&4hc.pl] &cSprobuj jeszcze raz!"
