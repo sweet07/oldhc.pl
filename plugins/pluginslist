@@ -3,54 +3,42 @@
 + EssentialsX
 + FunnyGuilds
 + CombatTagPlus
-+ Random Teleport
++ dragoTeleport
 + DeathBan
 + ViaVersion
 + PermissionsEx
- Duels
 + FAWE
 + WorldGuard
 + WorldBorder
-+ SafeTrade
-+ NoCheatPlus / Phoenix Anti-Cheat
++ NoCheatPlus
 + Vault
 + ProtocolLib
- heart-changer
- CustomMob
-+ CustomRecipes
++ heart-changer
 + RelaAutoBroadcast
 + OldCombatMechanics - Disable 1.9 hit cooldown
 + ExtraHardMode
- CustomCommands
- SkinsRestorer
- AdvancedBan
 + OreReplacer
-+ LimitsPlugin
-+ Enchantment Limiter
 
 
 
-default &7{USERNAME}&7: &f{MESSAGE}
-vip &6[VIP] &f{USERNAME}&6: &f{MESSAGE}
-helper &b[Helper] &f{USERNAME}&b: &f{MESSAGE}
-mod &a[Moderator] &f{USERNAME}&a: &f{MESSAGE}
-admin &4[Administrator] &f{USERNAME}&4: &f{MESSAGE}
+
+
+
+default "{TAG} &7{USERNAME}&7: &f{MESSAGE}"
+vip "{TAG} &6[VIP] &f{USERNAME}&6: &f{MESSAGE}"
+helper "{TAG} &b[Helper] &f{USERNAME}&b: &f{MESSAGE}"
+mod "{TAG} &a[Moderator] &f{USERNAME}&a: &f{MESSAGE}"
+admin "{TAG} &4[Administrator] &f{USERNAME}&4: &f{MESSAGE}"
 
 
 default:
     /spawn - co 15 minut
     /msg
-    /motd
-    /rules /regulamin
+    /rules
     /register
     /login
     /changepassword
-    /kit start
-    /time
     /g
-    /duel
-    /trade
-    /hardcore - opis ExtraHardMode + DeathBan
 
 PRZEDMIOTY NA GILDIE:
 15 diamond
@@ -61,9 +49,6 @@ PRZEDMIOTY NA GILDIE:
 15 iron block
 5 ender pearl
 
-LIMITY PRZEDMIOTÓW W EQ:
-2 koxy
-5 ender pearl
 
     
     
