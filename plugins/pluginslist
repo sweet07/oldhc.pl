@@ -25,9 +25,38 @@
 
 
 default "{TAG} &7{USERNAME}&7: &f{MESSAGE}"
+    authme.player.register
+    authme.player.login
+    authme.player.changepassword
+    -authme.player.unregister
+    -authme.player.logout
+    essentials.spawn
+    essentials.msg
+    essentials.motd
+    essentials.rules
+    essentials.helpop
+    essentials.ignore
+    essentials.list
+    essentials.ban.notify
+    essentials.kick.notify
+    essentials.mute.notify
+    essentials.tpaccept
+    essentials.tpdeny
+    essentials.silentjoin
+    essentials.silentquit
+    -essentials.help
+    ctplus.check
+    ctplus.logout
+    -ctplus.notify.kill
+    rab.receivebroadcast
+    rab.receiveautobroadcast
+    
 vip "{TAG} &6[VIP] &f{USERNAME}&6: &f{MESSAGE}"
+    
 helper "{TAG} &b[Helper] &f{USERNAME}&b: &f{MESSAGE}"
+
 mod "{TAG} &a[Moderator] &f{USERNAME}&a: &f{MESSAGE}"
+
 admin "{TAG} &4[Administrator] &f{USERNAME}&4: &f{MESSAGE}"
 
 
