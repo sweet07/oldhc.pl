@@ -1,0 +1,7 @@
+coordinates:
+  min: 1500
+  max: 3000
+messages:
+  ocean: "&f[old&4hc.pl] &cSprobuj jeszcze raz!"
+  river: "&f[old&4hc.pl] &cSprobuj jeszcze raz!"
+  teleported: "&f[old&4hc.pl] &aZostales teleportowany w losowe miejsce!"
