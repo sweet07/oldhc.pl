@@ -71,13 +71,13 @@ default:
     /g
 
 PRZEDMIOTY NA GILDIE:
-15 diamond
-15 emerald
-15 golden apple
-15 obsidian
-15 bookshelf
-15 iron block
-5 ender pearl
+1 diamond
+1 emerald
+1 golden apple
+1 obsidian
+1 bookshelf
+1 tnt
+1 ender pearl
 
 
     
@@ -86,6 +86,9 @@ PRZEDMIOTY NA GILDIE:
     
     
 Sprawdzić:
+https://www.spigotmc.org/resources/deathchest.35800/
+
+
 https://www.spigotmc.org/resources/orereplacer-100-no-more-x-ray-miners-seriously.22158/
 https://www.spigotmc.org/resources/advanced-report-system.48325/
 https://www.spigotmc.org/resources/bettercameras-360-camera-free-version.38927/
@@ -97,3 +100,5 @@ https://www.spigotmc.org/resources/antibowboostfix.49264/
 https://www.spigotmc.org/threads/nocheatplus-config-optimized-and-free.158041/
 https://www.spigotmc.org/resources/escapelag-optimize-your-server.43935/
 https://www.spigotmc.org/resources/magic-cauldron.37581/
+https://www.spigotmc.org/resources/%E2%99%9B-big-update-xjaydrop-the-best-drop-plugin-%E2%99%9B.43157/
+
