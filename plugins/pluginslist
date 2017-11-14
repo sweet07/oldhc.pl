@@ -1,6 +1,8 @@
 + AuthMe Reloaded
 + FastLogin
 + EssentialsX
++ EssentialsXChat
++ EssentialsXSpawn
 + FunnyGuilds // https://hastebin.com/jekinujoqo.php
 + CombatTagPlus
 + dragoTeleport
@@ -15,13 +17,11 @@
 + ProtocolLib
 + heart-changer
 + RelaAutoBroadcast
-+ OldCombatMechanics - Disable 1.9 hit cooldown
 + ExtraHardMode
 + OreReplacer
 
 
 
-SafeTrade
 
 
 
@@ -88,7 +88,7 @@ PRZEDMIOTY NA GILDIE:
 Sprawdzić:
 https://www.spigotmc.org/resources/deathchest.35800/
 
-
+https://www.spigotmc.org/resources/simpletrading.23802/
 https://www.spigotmc.org/resources/orereplacer-100-no-more-x-ray-miners-seriously.22158/
 https://www.spigotmc.org/resources/advanced-report-system.48325/
 https://www.spigotmc.org/resources/bettercameras-360-camera-free-version.38927/
@@ -102,4 +102,4 @@ https://www.spigotmc.org/resources/escapelag-optimize-your-server.43935/
 https://www.spigotmc.org/resources/magic-cauldron.37581/
 https://www.spigotmc.org/resources/%E2%99%9B-big-update-xjaydrop-the-best-drop-plugin-%E2%99%9B.43157/
 https://www.spigotmc.org/resources/toptenheads.21236/
-
++ OldCombatMechanics - Disable 1.9 hit cooldown
